@@ -44,6 +44,7 @@ You have a collection of **meta-prompts** designed to guide a Large Language Mod
 7. **Repeat Until Done.**  
    - Continue this cycle—generate coding prompt, implement, review—until all tasks from `01_planning.md` are finished.  
    - That’s when you’ll have a working Python project.
+   - I noticed each individual task can be completed in its own new chain which can be cheaper in the long run because of shorter context if you are using a service like cline
 
 ---
 
